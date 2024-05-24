@@ -1,0 +1,470 @@
+@font-face{
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: "Roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div.verx{
+    display: grid;
+    background-color:#939878;
+    grid-template-columns:  1fr 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    align-items: center;
+}
+
+div p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 25px 80px;
+}
+
+header nav ul  {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #2A2C1F;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    transition: all 0.7s;
+    color: orange;
+}
+
+header nav ul li.ser {
+    border: 1px solid #E7E8E3;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+header nav ul li.sor {
+    background-color: #CF6F49;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+header nav ul li.sor a {
+    color: white;
+}
+
+main section.find {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main section.find div.sprava{
+    display: grid;
+    row-gap: 20px;
+}
+
+main section.find div.sprava h3 {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+main section.find div.sprava h1 {
+    font-family: "Roboto";
+    font-size: 56px;
+    font-weight: 400;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 70%;
+}
+
+main section.find div.sprava h2 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 70%;
+}
+
+main section.find form {
+    padding-top: 21px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    column-gap: 34px;
+    align-items: center;
+}
+
+main section.find form div a {
+    text-decoration: none;
+    padding: 11.5px;
+    text-align: center;
+    background-color: #CF6F49;
+    border-radius: 6px;
+    color: white;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main section.find form input {
+    width: 310px;
+    height: 50px;
+    padding-left: 56px;
+    border: none;
+    border-radius: 6px;
+}
+
+main section.find form input::placeholder {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 20px;
+}
+
+main section.find svg.ty {
+    margin-left: 805px;
+}
+
+main section.find div.levo img {
+    width: 100%;
+    height: 100%;
+}
+
+main section.works {
+    display: grid;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+main section.works p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    width: 80%;
+    color: black;
+}
+
+main section.works div.svggg  {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding-top: 77px;
+    justify-items: end;
+}
+
+main section.works div.how {
+    padding-top: 125px;
+    text-align: center;
+}
+
+main section.works div.how h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    padding-bottom: 21px;
+}
+
+main section.works div.how span {
+    display: block;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    color: #65665C;
+    width: 33%;
+    margin: 0 auto;
+}
+
+main section.works div.find {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 64px 80px;
+    column-gap: 32px;
+    text-align: center;
+}
+
+main section.works div.find article {
+    border: 1px solid #E7E8E3;
+    border-radius: 16px;
+    padding: 50px 33px;
+}
+
+main section.works div.find article h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+main section.works div.find article span {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    color: #65665C;
+}
+    
+main section.best {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 700px;
+    padding: 128px 80px;
+}
+
+main section.best div.left span.odin {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+
+main section.best div.left h2 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 20px;
+    width: 40%;
+}
+
+main section.best div.left p.rut {
+    color: #65665C;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    width: 40%;
+}
+
+main section.best div.left span.dva {
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main section.best div.left span.dva:hover {
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+
+main section.best div.left span.tri {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+main section.best div.left span.tri:hover {
+    transition: all 0.7s;
+    color: orange;
+}
+
+main section.best div.left {
+    padding-top: 270px;
+    padding-left: 80px;
+}
+
+main section.best div.rid {
+    padding-right: 80px;
+    grid-template-rows: 1fr 600px;
+}
+
+main section.best div.rid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main section.poxo {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-rows: 700px;
+    padding: 128px 80px;
+}
+section.poxo div.imeg img{
+    height: 100%;
+    width: 70%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+main section.poxo div.pol{
+    display: grid;
+}
+main section.poxo div.pol div.odin{
+    width: 100%;
+    height: 160px;
+}
+main section.poxo div.pol div.odin span{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+main section.poxo div.pol div.odin h2{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 48px;
+    padding-top: 20px;
+}
+main section.poxo div.pol div.odin h3{
+    color: #65665C;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 28px;
+    padding-bottom: 30px;
+    width: 60%;
+}
+main section.poxo div.pol div.aff{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+main section.poxo div.pol div.aff span{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    padding-top: 16px;
+}
+main section.poxo div.pol div.aff h3{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 45%;
+    padding-top: 18px;
+}
+main section.poxo div.pol span.gui {
+    border: 1px solid #E7E8E3;
+    padding: 13px 25px;
+    border-radius: 6px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main section.poxo div.pol span.gui:hover {
+    transition: all 0.7s;
+    color: orange;
+    border: 1px solid orange;
+}
+
+main section.poxo div.pol span.fui {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+main section.poxo div.pol span.fui:hover {
+    transition: all 0.7s;
+    color: orange;
+}
+main section.house{
+    background-color:#F5F5F2;
+    
+}
+main section.house div.fap{
+    text-align: center;
+}
+main section.house div.fap svg{
+    margin-left: 94vw;
+}
+main section.house div.fap span{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    background-color:#E7E8E3;
+    padding: 7px 7px;
+    border-radius: 32px;
+}
+main section.house div.fap h2{
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: center;
+    padding-top: 30px;
+}
+main section.house div.kupi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+main section.house div.kupi div.dom {
+    background-color: white;
+    width: 500px;
+    gap: 30px;
+}
+main section.house div.kupi div.dom span.nah{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+}
+main section.house div.kupi div.dom h2{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+}
+
+main section.house div.kupi div.dom div.one span{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #65665C;
+}
+main section.house div.kupi div.dom div.two span{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #65665C;
+}
